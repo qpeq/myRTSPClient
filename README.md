@@ -2,7 +2,10 @@
 
 ## Prerequisite
 
-cmake 3.16 or later
+1. cmake 3.16 or later
+2. libssl-dev
+
+The project has been tested under Ubuntu and Arch Linux
 
 ## Build and Run
 
@@ -21,7 +24,7 @@ $ cmake .. && cmake --build .
 ```
 4. Run the program with the test url:
 ```shell
-$ cd build
+$ cd bin
 ```
 ```shell
 $ ./myRTSPClient rtsp://wowzaec2demo.streamlock.net/vod/mp4:BigBuckBunny_115k.mov
