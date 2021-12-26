@@ -1,0 +1,3 @@
+[submodule "submodules/live555"]
+	path = submodules/live555
+	url = https://github.com/zzu-andrew/live555-cmake.git
